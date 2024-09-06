@@ -13,7 +13,7 @@ let Autoclickers = {
  	  'unemployedengineers': {cost:1000000000, number:0, cps:40000000, buttonString: 'Unemployed Engineer', showing: false, state: ''},
 		'testers': {cost:20000000000, number:0, cps:2000000000, buttonString: 'Tester', showing: false, state: ''},
 		'hackers': {cost:3000000000000, number:0, cps:1000000000000, buttonString: 'Hacker', showing: false, state: ''},
-    'developers': {cost:150000000000000, number:0, cps:3000000000000, buttonString: 'Developer', showing: false, state: ''},
+    'developers': {cost:150000000000000, number:0, cps:15000000000000, buttonString: 'Developer', showing: false, state: ''},
     'prestigedeveloper': {cost:7e17, number:0, cps:2e16, buttonString: 'Prestige Developer', showing: false, state: ''},
 
 	},

@@ -38,13 +38,13 @@ let Prestige = {
     currentrunholder = Runtime.currentrun.time
     Reset.reset()
     this.prestiged = true
-    this.bonus += bonusholder + (50 * (this.prestigePoints + 1)/1.3)
+    this.bonus += bonusholder + (50 + (1.33^(this.prestigePoints+1)))
     if ((currentrunholder < fastestrunholder) || (fastestrunholder == 0)){
       Runtime.updateRun(currentrunholder, 'fastestrun')
     } else {
       Runtime.updateRun(fastestrunholder, 'fastestrun')
     }
-    this.prestigePoints = prestigepointsholder + (1 + 1.1*(this.prestigePoints/10))
+    this.prestigePoints = prestigepointsholder + (1 + (1.1*(this.prestigePoints)))
     this.updatePrestigePoints()
     this.updateBonus()
     this.prestigeShop()
