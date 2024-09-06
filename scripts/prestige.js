@@ -27,7 +27,7 @@ let Prestige = {
 
   updatePrestigePoints(){
     if (this.prestiged == true){
-      document.getElementById('prestigepoints').innerHTML = 'Prestige Points: '+this.prestigePoints
+      document.getElementById('prestigepoints').innerHTML = 'Prestige Points: '+ abbreviate(Math.floor(this.prestigePoints))
     }
   },
 
