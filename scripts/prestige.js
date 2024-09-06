@@ -21,7 +21,7 @@ let Prestige = {
 
   updateBonus(){
     if (this.prestiged == true){
-      document.getElementById('bonus').innerHTML = 'Prestige Bonus: +' + this.bonus + '%'
+      document.getElementById('bonus').innerHTML = 'Prestige Bonus: +' + abbreviate(Math.floor(this.bonus)) + '%'
     }
   },
 
