@@ -44,7 +44,7 @@ let Prestige = {
     } else {
       Runtime.updateRun(fastestrunholder, 'fastestrun')
     }
-    this.prestigePoints = prestigepointsholder + (1 + (1.1*(this.prestigePoints)))
+    this.prestigePoints = prestigepointsholder + (1 * (1 + (Clicks.nbrOwned/1e11)))
     this.updatePrestigePoints()
     this.updateBonus()
     this.prestigeShop()

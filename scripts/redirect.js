@@ -21,7 +21,7 @@ let Redirect = {
     eighteen:{variable:'testers', obj:'autoclickers'},
     nineteen:{variable:'hackers', obj:'autoclickers'},
     twenty:{variable:'developers', obj:'autoclickers'},
-    twentyone:{variable:'prestigedeveloper', obj:'autoclickers'},
+    twentyone:{variable:'prestigeclicker', obj:'autoclickers'},
   },
   
   onload(){
