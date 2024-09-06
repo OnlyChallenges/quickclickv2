@@ -1,5 +1,5 @@
 var Buttonconfig = {
-  buttonsManual: {mouseR:10, mouseE:300},
+  buttonsManual: {mouseR:10, mouseE:300, mouseJ:15000, mouseV:3e9},
   
   show(){
     for (const [key, value] of Object.entries(this.buttonsManual)){
