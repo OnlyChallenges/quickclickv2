@@ -10,7 +10,7 @@ var Clicks = {
 			this.setNbrOwned(0)
 			this.mouseUpgrades = 1
 		}
-		document.getElementById('mouseupgrades').innerHTML = 'Mouse Rating: ' + abbreviate((this.mouseUpgrades))
+		document.getElementById('mouseupgrades').innerHTML = 'Mouse Rating: ' + abbreviate((this.mouseUpgrades)* Prestige.bonus)
 		document.getElementById('animation').innerHTML = Animations[Animations.currentAnimation].animation[this.clickLoop]
 		document.getElementById('clickbutton').title = 'Click Me! (+' + abbreviate((1 * this.mouseUpgrades)) + ')'
 	},
